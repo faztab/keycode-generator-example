@@ -1,0 +1,41 @@
+body {
+    background-color: #3b3b3b;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.keycode-info {
+    background-color: #050206;
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.keycode-info p {
+    margin: 0;
+}
+
+.keycode-info p strong {
+    display: inline-block;
+    width: 80px;
+}
